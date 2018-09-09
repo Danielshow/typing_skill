@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Typing Monster</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="overlay"></div>
+  <div class="videowrap">
+    <video src="typing.mp4" autoplay="true" muted loop>
+     </video>
+  </div>
+  <div class="header">
+    Typing Monster
+  </div>
+  <div class="container">
+    <div class="main">
+      <p class="main-head">Type the given word in <span id = "levels"> </span> seconds</p>
+      <h2 class="main-word" id="main_word"></h2>
+      <form action="">
+        <input id="text_input"type="text" placeholder="Start typing.........." autofocus>
+      </form>
+      <p id = "message"></p>
+      <p class="time">Time: <span id ="time"></span></p>
+      <p class="score">Score: <span id="score"></span></p>
+
+      <div class="instruction">
+        <p>Instruction</p>
+        <p>Type each word in <span id="newlevels">5</span> seconds and see if you are the real deal, Click a button to choose your level</p>
+        <p>When the game is over, type the word given to start again or click Enter</p>
+      </div>
+    </div>
+    <div class="buttonList">
+      <button type="button" name="button" id="easy">Easy</button>
+      <button type="button" name="button" id="medium">Medium</button>
+      <button type="button" name="button" id="hard">Hard</button>
+    </div>
+
+  </div>
+  <ul>
+    <li><a href="#">Facebook</a></li>
+    <li><a href="#">Twitter</a></li>
+    <li><a href="#">LinkedIn</a></li>
+  </ul>
+
+  <script src="script.js">
+
+  </script>
+</body>
+</html>
